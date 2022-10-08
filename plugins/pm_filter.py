@@ -30,7 +30,7 @@ BUTTONS = {}
 SPELL_CHECK = {}
 
 
-@Client.on_message(filters.group & filters.text & filters.incoming)
+@Client.on_message(filters.text & filters.incoming)
 async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
@@ -364,7 +364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('My love check your private message, I have sent you the file!!🥰🤝', show_alert=True)
+                await query.answer('My love check your private message, I have sent you the file!!🥰🤝', show_alert=False)
         except UserIsBlocked:
             await query.answer('Sweetie please unblock the bot! (Go to your settings and check privacy settings and the check your block users and unblock the bot there', show_alert=True)
         except PeerIdInvalid:
