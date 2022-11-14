@@ -10,12 +10,12 @@ class script(object):
     
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ CREATOR: Hislordship</b>
-<b>✯ MOVIE CHANNEL: <a href=https://t.me/+R59lJd9RGV1iNzZk>Hislordship Movies</a></b>
-<b>✯ SERIES CHANNEL: <a href=https://t.me/+14mNx7OU_BxjMTE0>LordshipTV</a></b>
+<b>✯ MOVIE GROUP : <a href=https://t.me/onlymovie76backup>onlymovie76Backup</a></b>
+<b>✯ SERIES SERIES : <a href=https://t.me/TvSeriesLand4U>TvSeriesLand4U</a></b>
 <b>✯ CREDIT: To Everyone that created this repo</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 <b>DEVELOPED BY:</b>
-- <a href=https://t.me/+R59lJd9RGV1iNzZk>MOVIE COLLECTION</a></b>"""
+- <a href=https://t.me/Astrong_Bots>Made by 🔥</a></b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
