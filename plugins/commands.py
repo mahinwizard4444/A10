@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/LordshipMovies')
+                InlineKeyboardButton('Series', url='https://t.me/onlyseries76')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,10 +45,10 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/LordshipMovies')
+            InlineKeyboardButton('Updates Channel✅️', url='https://t.me/onlyseries76')
             ],[
-            InlineKeyboardButton('Series Bot🎥', url='https://t.me/Lordship_series'),
-            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/Adultship')
+            InlineKeyboardButton('Series Group📺', url='https://t.me/TvSeriesLand4U'),
+            InlineKeyboardButton('Movie Group🎬', url='https://t.me/onlymovie76Backup')
             ],[
             InlineKeyboardButton('Help ⚙', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "♻️ CLICK HERE AND JOIN MY UPDATES CHANNEL", url=invite_link.invite_link
+                    "CLICK HERE AND JOIN MY UPDATES CHANNEL", url=invite_link.invite_link
                 )
             ]
         ]
@@ -94,10 +94,10 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/LordshipMovies')
+            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/onlyseries76')
             ],[
-            InlineKeyboardButton('Series Bot🎥', url='https://t.me/Lordship_series'),
-            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/Adultship')
+            InlineKeyboardButton('Series Group', url='https://t.me/TvSeriesLand4U'),
+            InlineKeyboardButton('Movie Group ', url='https://t.me/onlymovie76backup')
             ],[
             InlineKeyboardButton('Help ⚙', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
